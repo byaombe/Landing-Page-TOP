@@ -1,0 +1,28 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.nav-wrap, .nav-right, .header-2 {
+    padding: 12px;
+    border: 4px solid pink;
+    display: flex;
+} 
+
+.logo {
+    padding-top: -20px;
+    display: flex;
+    flex-direction: column;
+
+}
+ul {
+    list-style-type: none;
+}
+.nav-right {
+    margin-top: -20px;
+    margin-left: 600px;
+    gap: 20px;
+
+
+}
